@@ -1,0 +1,35 @@
+IMDB_Movie_dataset
+Approach/Steps: 
+	Extracted the data from given source 
+	Loaded into python pandas dataframe (movie_df)
+	Understand the attributes of the data
+	Identified and replaced the null and blank values with zero (e.g.:- gross, budget) using fillna() function
+	Calculated Profit1, profit2, Gross profit from the following formula by using lambda function
+     profit1= gross - budget
+     profit2 = (gross-budget)/(budget)
+     gross_profit=((gross-budget)/(budget)) * 100
+	Calculations are loaded into new column named profit1 , profit2 , gross_profit 
+	Exported the required data from master dataframe into top_ten_genre
+	Produced the result of top 10 genres based on the profitability 
+	Exported the required data from master dataframe into top_ten_directors and top_ten_actors
+	Produced the result of top 10 actors and directors based on the profitability 
+	Exported the required data from master dataframe into best_pair
+	Eliminated the values of empty or blank values of director/actor by using dropna()
+	Produced the result of best pair actor and directors based on the imdb_ratings
+	Created the result of best pair actor and directors average ratings 
+
+Library used: pandas
+Used pandas’ functions:
+      dropna()
+      illna()
+      sort_values()
+      mean()
+      head()
+      sum()
+      groupby()
+      apply()
+      lambda()
+      read_csv()
+	
+
+
