@@ -1,0 +1,6 @@
+Test Case 1: Check results on entering valid budget value
+Test Case 2: Check results valid gross value
+Test Case 3: Check response when entering a characters for gross and budget values
+Test case 4: verify the response for alphanumerical values for profit calculations
+Test case 5: verify negative input values for gross 
+Test case 6: Verify divisible zero error 
